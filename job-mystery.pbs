@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=0:01:00
+#PBS -N mystery-valentine
+#PBS -j oe
+
+cd "/home/wy248/hw1/cs5220-HW1"
+
+./mystery-valentine
